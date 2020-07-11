@@ -1,20 +1,7 @@
-// import React from "react";
-// import ComponentE from "./ComponentE";
-
-// function ComponentC() {
-//   return (
-//     <div>
-//       <ComponentE />
-//     </div>
-//   );
-// }
-
-// export default ComponentC;
-
 import React, { useContext } from "react";
 import { CountContext } from "../App";
 
-function ComponentC() {
+function ComponentA() {
   const countContext = useContext(CountContext);
   return (
     <div>
@@ -39,4 +26,4 @@ function ComponentC() {
   );
 }
 
-export default ComponentC;
+export default ComponentA;
